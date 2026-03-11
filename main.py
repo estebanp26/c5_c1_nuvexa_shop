@@ -26,6 +26,6 @@ if producto in ventas:
  ventas[producto] ["cantidad"]+= cantidad
 else:
  ventas[producto] = {"cantidad" : cantidad}
-
-mostrar_resumen(ventas, total_recaudado)
+ 
+mostrar_resumen(ventas,total_recaudado)
  
