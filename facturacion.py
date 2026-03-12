@@ -1,3 +1,4 @@
+#Shows all the billing for a purchase
 def generar_factura(producto, precio, cantidad, total_ventas):
  print("\nSALES SUMMARY: ")
  print("Product: ", producto)

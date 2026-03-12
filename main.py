@@ -1,9 +1,10 @@
+#Call the function when you need it
 from calcular import calculate_total
 from facturacion import generar_factura
 from resumen import mostrar_resumen
 
 def main():
-    ventas = {}
+    ventas = {}   #Empty dictionary to store all products
     continuar = "yes"
     total_recaudado = 0
 
@@ -31,5 +32,5 @@ def main():
 
     mostrar_resumen(ventas, total_recaudado)
 
-if __name__ == "__main__":
+if __name__ == "__main__":   #Only run the main function if this file is running.
     main()
