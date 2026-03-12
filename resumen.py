@@ -1,7 +1,7 @@
 def mostrar_resumen(ventas, total_recaudado):
     print("-----------------------------------")
-    print("\nRESUMEN DE VENTAS DEL DIA: ")
+    print("\nDAILY SALES SUMMARY: ")
     for producto, datos in ventas.items():
-        print(f"Producto: {producto}, Cantidad total vendida: {datos['cantidad']}")
+        print(f"Product: {producto}, Total quantity sold: {datos['cantidad']}")
         print("-----------------------------------")
-    print(f"TOTAL RECAUDADO DEL DIA: {total_recaudado}")
+    print(f"TOTAL COLLECTED FOR THE DAY: {total_recaudado}")

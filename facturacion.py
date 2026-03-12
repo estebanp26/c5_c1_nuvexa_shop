@@ -1,10 +1,10 @@
 def generar_factura(producto, precio, cantidad, total_ventas):
- print("\nRESUMEN  DE VENTA: ")
+ print("\nSALES SUMMARY: ")
  print("Product: ", producto)
  print("Price: ", precio)
  print("Amount: ", cantidad)
- print("subtotal: ", precio*cantidad)
- print("Total a pagar: ", total_ventas)
+ print("Subtotal: ", precio*cantidad)
+ print("Total to pay: ", total_ventas)
 
  
  

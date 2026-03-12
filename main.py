@@ -4,18 +4,18 @@ from resumen import mostrar_resumen
 
 def main():
     ventas = {}
-    continuar = "si"
+    continuar = "yes"
     total_recaudado = 0
 
     print("===========================")
     print("Welcome to Nuvexa shop!!!")
     print("===========================")
-    print("REGISTRO DE VENTAS\n")
+    print("SALES RECORD\n")
 
-    while continuar.lower() == "si":
-        producto = input("Ingrese el nombre del producto: ")
-        precio = float(input("Ingrese el precio del producto: "))
-        cantidad = int(input("Ingrese la cantidad vendida: "))
+    while continuar.lower() == "yes":
+        producto = input("Enter the product name: ")    
+        precio = float(input("Enter the product price: "))
+        cantidad = int(input("Enter the quantity sold: "))
 
         total_venta = calculate_total(precio, cantidad)
         total_recaudado += total_venta
@@ -27,7 +27,7 @@ def main():
         else:
             ventas[producto] = {"cantidad": cantidad}
 
-        continuar = input("¿Desea registrar otra venta? (si/no): ")
+        continuar = input("Do you want to register another sale? (yes/no): ")
 
     mostrar_resumen(ventas, total_recaudado)
 
