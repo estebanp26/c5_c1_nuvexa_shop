@@ -1,2 +1,3 @@
-def calcular_total(precio, cantidad):
-    return precio*cantidad
+def calculate_total(price, quantity):
+    """Calculates total by multiplying price and quantity."""
+    return price * quantity
