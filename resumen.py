@@ -947,6 +947,22 @@ section h2 {
 
 
 
+// ===========================
+// Year in footer
+// ===========================
+document.getElementById('year').textContent = new Date().getFullYear();
+
+// ===========================
+// Hamburger menu (mobile)
+// ===========================
+function ShowMenuphone() {
+    const nav = document.querySelector('.nav');
+    nav.classList.toggle('open');
+}
+
+
+
+
 
 
 
