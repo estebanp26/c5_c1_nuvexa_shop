@@ -20,3 +20,4 @@ The program successfully registers multiple sales in a single session and produc
 
 ## Status
 >The project is currently running as a fully functional terminal application. All four modules are connected and working correctly. Future improvements could include date stamping, input validation, exporting to a text file, and other features.
+yes
